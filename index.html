@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitFlow - Fitness Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>FitFlow</h1>
+            <p>Track your workouts and stay healthy!</p>
+        </header>
+
+        <section class="workout-form">
+            <h2>Enter Your Workout</h2>
+            <form id="workoutForm">
+                <label for="exercise">Exercise Type:</label>
+                <input type="text" id="exercise" placeholder="e.g., Running">
+
+                <label for="duration">Duration (minutes):</label>
+                <input type="number" id="duration" placeholder="e.g., 30">
+
+                <label for="calories">Calories Burned:</label>
+                <input type="number" id="calories" placeholder="e.g., 250">
+
+                <button type="submit">Add Workout</button>
+            </form>
+        </section>
+
+        <section class="workout-list">
+            <h2>Your Workouts</h2>
+            <ul id="workoutList">
+                <!-- Workouts will be dynamically added here -->
+            </ul>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

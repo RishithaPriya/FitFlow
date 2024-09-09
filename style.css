@@ -1,0 +1,78 @@
+/* Basic styling for FitFlow application */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #28a745;
+    color: white;
+    border-radius: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.workout-form {
+    margin-top: 20px;
+}
+
+.workout-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.workout-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.workout-list h2 {
+    margin-top: 30px;
+}
+
+.workout-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.workout-list ul li {
+    background-color: #f8f9fa;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: 4px solid #28a745;
+    border-radius: 5px;
+}
